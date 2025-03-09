@@ -1,39 +1,39 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import DonutSpirkles from "../assets/donut1.jpg";
+import DonutVanille from "../assets/donut2.jpg";
+import DonutBulle from "../assets/donut4.jpg";
+import Donut5 from "../assets/donut5.jpg";
+import DonutChoco from "../assets/donut3.jpg";
+import Donut6 from "../assets/donut6.jpg";
 
 export const MenuList = [
     {
-        name: "Pepperoni Pizza",
-        image: Pepperoni,
-        price: 15.99,
+        name: "Délice fraise",
+        image: DonutSpirkles,
+        price: 6.99,
     },
     {
-        name: "Margherita",
-        image: Margherita,
-        price: 11.99,
+        name: "Donut au citron",
+        image: DonutVanille,
+        price: 6.99,
     },
     {
-        name: "Pizza aux fruits de mer",
-        image: PedroTechSpecial,
-        price: 20.99,
+        name: "Donut croustillant",
+        image: DonutBulle,
+        price: 6.99,
     },
     {
-        name: "Pizza végétarienne",
-        image: Vegan,
-        price: 17.99,
+        name: "Donut Arc-en-ciel",
+        image: Donut5,
+        price: 4.99,
     },
     {
-        name: "Pizza à l'ananas",
-        image: Pineapple,
-        price: 14.99,
+        name: "Donut au choco",
+        image: DonutChoco,
+        price: 4.99,
     },
     {
-        name: "Pizza 4 fromages",
-        image: Expensive,
-        price: 12.99,
+        name: "Donut choco gourmand",
+        image: Donut6,
+        price: 4.99,
     },
 ];

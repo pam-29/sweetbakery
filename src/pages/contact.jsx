@@ -1,5 +1,5 @@
 import React from "react";
-import PizzaLeft from "../assets/pizzaLeft.jpg";
+import DonutContact from "../assets/imgContact.jpg";
 import "../styles/contact.css";
 
 function Contact() {
@@ -7,7 +7,7 @@ function Contact() {
         <div className="contact">
         <div
             className="leftSide"
-            style={{ backgroundImage: `url(${PizzaLeft})` }}
+            style={{ backgroundImage: `url(${DonutContact})` }}
         ></div>
         <div className="rightSide">
             <h1> Contactez-nous</h1>
