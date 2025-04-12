@@ -37,15 +37,17 @@ background-color: transparent;
 border: none;
 color: white;
 cursor: pointer;
+display: none;
+}
+
+.hiddenLinks {
+    display: none;
 }
 
 .navbar .rightSide svg {
 font-size: 40px;
 }
 
-.navbar #open {
-padding-left: 0px;
-}
 .navbar #open img {
 display: none;
 }
@@ -56,7 +58,6 @@ display: inherit;
 
 .navbar #open .hiddenLinks {
 display: inherit;
-margin-left: 30px;
 }
 
 .navbar #close .hiddenLinks {
@@ -85,7 +86,6 @@ margin: 5px;
 
     .navbar .rightSide {
         justify-content: flex-end;
-        padding-right: 50px;
     }
 
     .navbar .rightSide button {
@@ -93,12 +93,19 @@ margin: 5px;
     }
 }
 
-@media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
-        display: none;
+@media screen and (max-width: 400px) {
+    .navbar .rightSide{
+        justify-content: center;
+    }
+    .navbar{
+        flex-direction: column;
     }
 
-    .hiddenLinks {
-        display: none;
+    .navbar .leftSide{
+        padding-left: 0;
+    }
+
+    .navbar .leftSide img {
+        padding-left: 20px;
     }
 }

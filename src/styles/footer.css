@@ -12,10 +12,17 @@
 .socialMedia svg {
     color: white;
     margin: 20px;
-    font-size: 70px;
+    font-size: 50px;
     cursor: pointer;
 }
 
 .footer p {
     color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .socialMedia svg {
+        font-size: 25px;
+    }
 }

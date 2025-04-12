@@ -1,6 +1,4 @@
 .menu {
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +48,6 @@
     font-size: 20px;
 }
 
-
 .menuItem h1,
 .menuItem p {
     margin-left: 20px;
@@ -65,5 +62,12 @@
 @media only screen and (max-width: 800px) {
     .menuList {
         grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .menuItem{
+        width: 200px;
+        height: 350px;
     }
 }
