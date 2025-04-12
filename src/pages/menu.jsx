@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuList } from "../helpers/menuList";
-import MenuItem from "../components/MenuItem";
+import MenuItem from "./components/menuItem";
 import "../styles/Menu.css";
 
 function Menu() {
